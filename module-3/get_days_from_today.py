@@ -17,4 +17,4 @@ def get_days_from_today(date_str):
         return "Неправильний формат дати. Будь ласка, використовуйте формат 'РРРР-ММ-ДД'."
 
 # Testing the function
-print(get_days_from_today("2021-10-09"))  
+print(get_days_from_today("2022-10-09"))  
