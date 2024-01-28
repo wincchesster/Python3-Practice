@@ -28,7 +28,7 @@ Output:
 ```
 
 ## Task 2 ( Lottery game )
-```
+```python
 import random
 
 def get_numbers_ticket(min, max, quantity):
@@ -52,7 +52,7 @@ Output:
 ```
 
 ## Task 3 ( Beutify phone number )
-```
+```python
 import re
 
 def normalize_phone(phone_number):
@@ -90,7 +90,7 @@ Output:
 ```
 
 ## Task 4 ( Upcoming birthdays )
-```
+```python
 from datetime import datetime, timedelta
 
 def get_upcoming_birthdays(users):
