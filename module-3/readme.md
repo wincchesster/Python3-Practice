@@ -1,7 +1,7 @@
 # Module 3: Python Data Structures
 
 ## Task 1 ( Calculate days between current date and a given date )
-```
+```python
 from datetime import datetime
 
 def get_days_from_today(date_str):
