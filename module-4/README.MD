@@ -44,7 +44,7 @@ if __name__ == "__main__":
 ```
 
 Output:
-<img src="https://i.imgur.com/xeJHT5S.png alt="drawing" width="95%"/></img>
+<img src="https://i.imgur.com/xeJHT5S.png" alt=drawing" width="95%"/></img>
 
 ## Task 2 ( Cats catalog )
 This program reads the file and returns a list of dictionaries with the cat's information:
