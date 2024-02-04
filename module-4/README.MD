@@ -44,7 +44,9 @@ if __name__ == "__main__":
 ```
 
 Output:
-<img src="https://i.imgur.com/xeJHT5S.png" alt=drawing" width="95%"/></img>
+<img src="https://i.imgur.com/xeJHT5S.png" alt="drawing" width="95%"/></img>
+
+______________________________________________________________________________________
 
 ## Task 2 ( Cats catalog )
 This program reads the file and returns a list of dictionaries with the cat's information:
@@ -87,6 +89,7 @@ Output:
 
 <img src="https://i.imgur.com/VmYlMj9.png" alt="drawing" width="95%"/></img>
 
+______________________________________________________________________________________
 
 ## Task 3 ( Tree program )
 This program lists the contents of a directory in a tree-like structure (like the tree command in Linux):
@@ -127,6 +130,8 @@ if __name__ == "__main__":
 
 Output:
 <img src="https://i.imgur.com/UIOj3mH.png" alt="drawing" width="95%"/></img>
+
+______________________________________________________________________________________
 
 ## Task 4 ( Bot )
 This program is a simple assistant bot that can add, change, and show contacts. The bot can understand the following commands:
