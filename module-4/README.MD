@@ -44,7 +44,7 @@ if __name__ == "__main__":
 ```
 
 Output:
-<img src="https://i.imgur.com/xeJHT5S.png" alt="drawing" width="95%"/></img>
+<img src="https://i.imgur.com/xeJHT5S.png" alt="drawing" width="50%"/></img>
 
 ______________________________________________________________________________________
 
@@ -83,11 +83,11 @@ if __name__ == "__main__":
 ```
 
 Output:
-<img src="https://i.imgur.com/Z7Z2v5D.png" alt="drawing" width="95%"/></img>
+<img src="https://i.imgur.com/Z7Z2v5D.png" alt="drawing" width="50%"/></img>
 
 > For better output, I use json.dumps() to print the list of dictionaries in a more readable format.
 
-<img src="https://i.imgur.com/VmYlMj9.png" alt="drawing" width="95%"/></img>
+<img src="https://i.imgur.com/VmYlMj9.png" alt="drawing" width="50%"/></img>
 
 ______________________________________________________________________________________
 
@@ -129,7 +129,7 @@ if __name__ == "__main__":
 > I've added lines for similiar output to the tree command in Linux.
 
 Output:
-<img src="https://i.imgur.com/UIOj3mH.png" alt="drawing" width="95%"/></img>
+<img src="https://i.imgur.com/UIOj3mH.png" alt="drawing" width="50%"/></img>
 
 ______________________________________________________________________________________
 
@@ -215,4 +215,4 @@ if __name__ == "__main__":
 ```
 
 Output:
-<img src="https://i.imgur.com/6pSoyJT.png" alt="drawing" width="95%"/></img>
+<img src="https://i.imgur.com/6pSoyJT.png" alt="drawing" width="50%"/></img>
