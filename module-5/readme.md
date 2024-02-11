@@ -61,6 +61,10 @@ if __name__ == "__main__":
     print(f"Загальний дохід: {total_income}")
 ```
 
+* The `generator_numbers` function uses the regular expression `\b\d+(\.\d+)?\b` to find numbers in text. This expression matches integers and floating-point numbers that are clearly separated by spaces (or on a word boundary).
+* Each matching number is converted to a **float** and returned with **yield**, creating a generator.
+* The `sum_profit` function uses the generator created by `generator_numbers` to iterate over all the numbers in the text and sum them using the built-in `sum` function.
+
 Output:
 
 <img src="https://i.imgur.com/lPRqpdP.png" alt="drawing" width="75%"/></img>
@@ -153,6 +157,12 @@ if __name__ == "__main__":
             elif log['level'] == "WARNING":
                 print(color_orange(f"{log['datetime']} - {log['message']}"))
 ```
+
+* `parse_log_line`: Parses a single log line and returns a dictionary with date, level, and message.
+* `load_logs`: Opens the log file, reads each line and applies `parse_log_line`.
+* `filter_logs_by_level`: Filters logs by level.
+* `count_logs_by_level`: Counts the number of logs for each level.
+* `display_log_counts`: Displays the log counts in a table format with colors for each level.
 
 Output:
 
@@ -264,6 +274,8 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+* In this code, the `input_error` decorator catches and handles exceptions thrown by command-handling functions. Each type of error is handled separately to return an appropriate message to the user. Command functions use the `raise` statement to generate the appropriate exception, which is then handled by the decorator.
 
 Output:
 
